@@ -13,7 +13,7 @@ accountPassword = "Science"
 accountAddress = "Malleshawaram (Bangalore)"
 
 /* 
-Prefer not top use var
+Prefer not to use var
 because it create issue in block scope and function scope
 */
 
