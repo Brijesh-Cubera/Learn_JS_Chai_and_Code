@@ -47,9 +47,10 @@ const myFunction = function() {
     console.log("Hello World!");
 }
 
-console.log(typeof bigNumber)
-console.log(typeof outSideTemp)
-console.log(typeof myFunction)
+console.log(typeof bigNumber)  // bigInt
+console.log(typeof outSideTemp) // object
+console.log(typeof myFunction) // function but it is Object function
+console.log(typeof userEmail)  // undefined
 
 
 // JS is not define language 
