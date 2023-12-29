@@ -78,11 +78,11 @@ console.log(+""); // 0
 
 
 let gameCounter = 100;
-gameCounter++;   // post fix   //value increase when tast is done
+gameCounter++;   // post fix   //value increase when tast is done // value of x is assigned to y, and then the value of x is incremented by 1. Therefore, after this operation, x becomes 4, and y becomes 3.
 console.log(gameCounter); // 101
 
 let gameCounter1 = 100;
-++gameCounter1; // pre fix   // first value increase then task done
+++gameCounter1; // pre fix   // first value increase then task done // which means the value of a is incremented by 1, and then the result is assigned to b. Therefore, both a and b become 4.
 console.log(gameCounter1); // 101
  
 
