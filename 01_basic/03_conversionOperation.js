@@ -1,3 +1,5 @@
+/*
+
 let score = 33; 
 console.log(typeof score);
 console.log(typeof(score));  //both type give same result
@@ -43,6 +45,46 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+*/
+
+// ********************* Operation ***********************
+
+/*
+
+let value = 3
+let negValue = -value
+
+console.table([value, negValue]);
+
+let str1 = "Hello";
+let str2 = "Brijesh";
+
+console.log(str1,str2);
+console.log(str1 +" "+ str2);
+
+console.log("1" + 2); // value take as string 
+console.log(1 + "2"); // value take as string
+console.log("1" + "2"); // value take as string
+console.log("1" + 2 + 2); // value take as string
+console.log(1 + 2 + "2"); // first 2 value take as number then 3 value take as string
+console.log("1" + (2 + 2)); // value take as string as well as number (inside breaket is number)
+
+*/
+
+console.log(true); // true
+console.log(+true); // 1
+console.log(+""); // 0
+
+
+let gameCounter = 100;
+gameCounter++;   // post fix   //value increase when tast is done
+console.log(gameCounter); // 101
+
+let gameCounter1 = 100;
+++gameCounter1; // pre fix   // first value increase then task done
+console.log(gameCounter1); // 101
+ 
 
 
 
