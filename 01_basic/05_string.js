@@ -20,3 +20,7 @@ console.log(newGame); //[String: 'Brijesh Patel']
 console.log(newGame[0]); //B
 console.log(newGame.__proto__);//{}  // to see the object prototype
 
+console.log(newGame.length); // 13
+console.log(newGame.toUpperCase()); // BRIJESH PATEL
+console.log(newGame.charAt(3)); // j  at place 2 j is available
+console.log(newGame.indexOf("j")); // j is available at 3nd position 
