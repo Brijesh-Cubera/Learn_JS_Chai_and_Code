@@ -14,7 +14,9 @@ console.log(`My name is ${name.toUpperCase()} Iam ${age} year old and iam an Eng
 
 // we can also write another way to string
 
-const newGame = new String("Brijesh Patel")
+const newGame = new String('Brijesh Patel');
 
-console.log(newGame);
+console.log(newGame); //[String: 'Brijesh Patel']
+console.log(newGame[0]); //B
+console.log(newGame.__proto__);//{}  // to see the object prototype
 
