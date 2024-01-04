@@ -113,7 +113,7 @@ console.log(myArr); // [ 1, 2, 3, 4, 5 ]
 console.log(newArr); // 1,2,3,4,5
 console.log(typeof newArr); // string // Array change into string
 
-*/
+
 
 // slice, splice
 
@@ -126,3 +126,5 @@ console.log("B", myArr); // B [ 1, 2, 3, 4, 5 ] // it doesnot effect in original
 const myArr2 = myArr.splice(1, 3); //array start from 1 to 3 in splice 3 is included
 console.log(myArr2); // [2,3]
 console.log("c", myArr); // B [ 0, 4, 5 ] // it remove or manupulate the original Array
+
+*/
