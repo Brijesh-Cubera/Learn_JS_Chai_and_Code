@@ -86,7 +86,8 @@ console.log(myArray2); // [ 1, 2, 3, 4, 5 ]
 
 // +++++++++++ Array Method +++++++++++
 
-const myArr = [1,2,3,4,5]
+const myArr = [0,1,2,3,4,5]
+
 /*
 myArr.push(6) // it at 6 at last
 myArr.push(96) // it at 96 at last
@@ -105,9 +106,23 @@ console.log(myArr.includes(99)); // false because 99 not available in array
 
 console.log(myArr.indexOf(5)); // 4 5 available at 4th index
 console.log(myArr.indexOf(26)); // -1 means not available or not exist
-*/
+
 const newArr = myArr.join() // change Array into String
 
 console.log(myArr); // [ 1, 2, 3, 4, 5 ]
 console.log(newArr); // 1,2,3,4,5
 console.log(typeof newArr); // string // Array change into string
+
+*/
+
+// slice, splice
+
+console.log("A", myArr); // A [ 1, 2, 3, 4, 5 ]
+
+const myArr1 = myArr.slice(1, 3); //array start from 1 to 3 in slice3 is not included
+console.log(myArr1); // [2,3]
+console.log("B", myArr); // B [ 1, 2, 3, 4, 5 ] // it doesnot effect in original Array
+
+const myArr2 = myArr.splice(1, 3); //array start from 1 to 3 in splice 3 is included
+console.log(myArr2); // [2,3]
+console.log("c", myArr); // B [ 0, 4, 5 ] // it remove or manupulate the original Array
