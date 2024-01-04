@@ -24,4 +24,30 @@ console.log(hundreds.toLocaleString()); //100,000 //by US standard
 console.log(hundreds.toLocaleString('en-IN')); // 1,00,000 //by Indian standard
 */
 
-//++++++++++++++++++++ Maths +++++++++++++++++++++++
+//++++++++++++++++++++ Math +++++++++++++++++++++++
+
+
+
+
+// console.log(Math);
+// console.log(Math.abs(-4)); // 4 // -ve number change to +ve number
+// console.log(Math.round(4.6)); // 5 // rounded
+// console.log(Math.ceil(4.6)); // 5 // top of round
+// console.log(Math.floor(4.6)); // 4 //lowest value of round
+// console.log(Math.min(4,3,8,9,6)); // 3 //lowest value
+// console.log(Math.max(4,3,8,9,6)); // 9 //max value
+
+
+
+// console.log(Math.random()); // 0.869577213942377 //value comes between 0 to 1
+
+// console.log(Math.random()*10); // 7.033020219659216 //value comes between 0 to 1 but it shift one no above decimal
+// console.log((Math.random()*10) + 1); // 7.033020219659216 //value comes after 1 because if number is 0 then 0+1 = 1 if 3 then 3+1 = 4 so due to this number not be a zero 
+// console.log(Math.floor(Math.random()*10) + 1); // 7 // it give lowest of that no means floor of that no after decimal
+
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random()*(max-min+1))+min); // we get value between min to max,
+// we demand floor value of random generated value with multiply of (max-min+1) so we get rando value 
+// but we need value greater than min so we add min to get no greater than min and less than max
