@@ -1,3 +1,6 @@
+
+/*
+
 // Array :- JavaScript arrays are resizable and can contain a mix of different data types.
 // arrays are not associative arrays and so, array elements cannot be accessed using 
 // arbitrary strings as indexes, but must be accessed using nonnegative integers as indexes.
@@ -11,6 +14,7 @@ console.log(myHeros[4]); // Bakelal
 const myArray2 = new Array(1,2,3,4,5) //its automatically transfer into array
 console.log(myArray2); // [ 1, 2, 3, 4, 5 ] 
 
+*/
 
 // const numbers = [1,2,3,4,5] // when we inspect in web and write this and ifprint then below all things appear 
 // console.log(numbers) // below all method perform in Array
@@ -78,3 +82,32 @@ console.log(myArray2); // [ 1, 2, 3, 4, 5 ]
                 // get __proto__: ƒ __proto__()
                 // set __proto__: ƒ __proto__()
 // Above all methode can be perform in Array
+
+
+// +++++++++++ Array Method +++++++++++
+
+const myArr = [1,2,3,4,5]
+/*
+myArr.push(6) // it at 6 at last
+myArr.push(96) // it at 96 at last
+console.log(myArr);
+
+myArr.pop() // it remove last element from array
+console.log(myArr);
+
+myArr.unshift(99) // it add 99 to the first due to this all element shift their position so its take some time and also some lode occur in computer.
+console.log(myArr);
+
+myArr.shift() // it remove 1st element from array
+console.log(myArr);
+
+console.log(myArr.includes(99)); // false because 99 not available in array
+
+console.log(myArr.indexOf(5)); // 4 5 available at 4th index
+console.log(myArr.indexOf(26)); // -1 means not available or not exist
+*/
+const newArr = myArr.join() // change Array into String
+
+console.log(myArr); // [ 1, 2, 3, 4, 5 ]
+console.log(newArr); // 1,2,3,4,5
+console.log(typeof newArr); // string // Array change into string
