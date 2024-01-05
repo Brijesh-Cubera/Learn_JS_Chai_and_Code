@@ -34,15 +34,19 @@ const jsUser = {
 
 console.log(jsUser.name); // Brijesh // every one chose this to access the value but is wan not a correct way to find the value
 // console.log(jsUser.full name); // we never get through this so we use square bracket to get the result
-console.log(jsUser["name"]); // Brijesh // every one chose this to access the value but is wan not a correct way to find the value
-console.log(jsUser["full name"]); // Brijesh Patel // every one chose this to access the value but is wan not a correct way to find the value
+console.log(jsUser["name"]); // Brijesh // correct way to find the value
+console.log(jsUser["full name"]); // Brijesh Patel // correct way to find the value
 
 console.log(typeof jsUser["mysym1"]); // string
 console.log(jsUser[mysym]); // mykey2
 
 jsUser.email = "brijeshnitap@gmail.com"
-console.log(jsUser["email"]); // Brijesh Patel // every one chose this to access the value but is wan not a correct way to find the value
+console.log(jsUser["email"]); // Brijesh Patel // correct way to find the value
 
+Object.freeze(jsUser) // it freez the object after freeze nothing will be change also it does not give any error
 
+jsUser.age = 32;
+jsUser.email = "kuttahaitu@sahihai.com"
 
+console.log(jsUser);
  
