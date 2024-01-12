@@ -1,1 +1,1 @@
-# JS_Hindi_Chai_and_Code
+# Learn_JS_with_Chai_and_Code
